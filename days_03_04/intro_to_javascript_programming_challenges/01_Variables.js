@@ -1,16 +1,14 @@
 // Programming Challenge:
 // Ask the user for their name
+let name = prompt("What is your name? ");
+
+// Next, ask the user for a hex color code #AAAAAA
+
+let hexColor = prompt("What is your favorite hex color code (i.e. FFCC00) ");
+
 // Then have the website welcome the user using an <h1> tag
-// Next, ask the user for a hex color code
+document.write("<h1>Welcome, " + name + "</h1>");
+
+
 // Use this code to create a div (give it a class of colorBox) on the screen with the correct color
-
-let answer = prompt("Hello. What is your name?");
-
-let color = prompt("Please give me a hex color code.");
-
-document.write("<h1>Welcome, " + answer + "</h1>");
-
-
-// ${} means taking the value of that variable
-document.write(`<div class = "colorBox" style=background-color:#${color};"></div>`);
-
+document.write(`<div class="colorBox" style="background-color:#${hexColor};"></div>`)
