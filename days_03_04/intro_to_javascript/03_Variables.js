@@ -62,7 +62,7 @@ console.log(converted1, typeof(converted1));
 let converted2 = parseInt(5.7);
 console.log(converted2, typeof(converted2));
 
-// string -> number (float)
+// convert string -> number (float)
 let converted3 = parseFloat("5.7");
 console.log(converted3, typeof(converted3));
 
